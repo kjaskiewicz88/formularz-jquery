@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <form>
+        <input type="text" name="surname" id="surname" placeholder="imie i nazwisko" title='podaj nazwisko'><p id="p1" class="arrow_box">To pole jest wymagane</p>
+        <input type="text" name="street" id="street" placeholder="ulica" title='podaj ulicę'><p id="p2" class="arrow_box">To pole jest wymagane</p>
+        <input type="number" name="number" id="number" placeholder="nr" title='nr domu'><p id="p3" class="arrow_box">To pole jest wymagane</p>
+        <input type="number" name="zip_kode" id="zip_kode" placeholder="kod" title='kod pocztowy'><p id="p4" class="arrow_box">To pole jest wymagane</p>
+        <input type="text" name="city" id="city" placeholder="miasto" title="miasto"><p id="p5" class="arrow_box">To pole jest wymagane</p>
+        <div id="content">
+            <div class="box">
+                <select name="pizza" id="pizza">
+                    <option value="0.00">Wybierz Pizze</option>
+                    <option value="15.99">Margarita</option>
+                    <option value="16.99">Da Grasso</option>
+                    <option value="17.40">Wege</option>
+                    <option value="26.00">Parma</option>
+                    <option value="35.60">Salame</option>
+                </select>
+                <div class="price">
+                    <h3>Cena<span id="priceP"></span></h3>
+                </div>
+            </div>
+            <div class="box">
+                <select name="sauce" id="sauce">
+                    <option value="">Wybierz sos</option>
+                    <option value="0.00">bez</option>
+                    <option value="5.00">Czosnkowy</option>
+                    <option value="5.00">Ketchup</option>
+                </select>
+                <div class="price">
+                    <h3>Cena<span id="priceS"></span></h3>
+                </div>
+            </div>    
+        </div>
+
+        <label for="check"><input type="checkbox" name="check" id="check"><span id="text">Wyrażam zgodę na przetwarzanie moich danych osobowych*</span></label><p id="p6" class="arrows_box">To pole jest wymagane</p>
+        <div id="content_inner">
+        <input type="submit" value="wyślij" id="btn">
+        </div>
+
+    </form>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jquery/main.js"></script>
+</body>
+</html>

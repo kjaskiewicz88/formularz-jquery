@@ -1,0 +1,167 @@
+@media all  and (max-width: 1170px){
+    #p1{
+        left:100px;
+        width: 150px;
+    }
+    #p2{
+        left:100px;
+        width: 150px;
+    }
+    #p3{
+        left:8px;
+        width: 150px;
+        top: 200px;
+    }
+    #p4{
+        left:183px;
+        width: 150px;
+        top: 200px;
+    }
+    #p5{
+        left:100px;
+        width: 150px;
+        top: 280px;
+    }
+    #p6{
+        top:480px;
+    }
+    #number,#zip_kode{
+        width: 36%;
+    }
+    #text{
+        margin: -20px 20px;
+        display: block;
+   }
+   #zip_kode{
+         margin: 0px 0px 30px 16px;
+    }
+    form{
+        width: 35%;
+    }
+}
+
+
+
+@media all  and (max-width: 992px){
+    #p1{
+        left:70px;
+    }
+    #p2{
+        left:70px;
+    }
+    #p3{
+        left:1px;
+    }
+    #p4{
+        left:165px;
+    }
+    #p5{
+        left:70px;
+    }
+    #p6{
+        top:480px;
+    }
+    #number,#zip_kode{
+        width: 33%;
+    }
+    #surname, #street,#city{
+        width: 85%;
+    }
+    #number{
+        margin: 10px 10px 30px 10px;
+    }
+    #zip_kode{
+        margin: 0px 0px 30px 21px;
+    }
+}
+
+
+@media all  and (max-width: 837px){
+    #p6{
+        top:680px
+    }
+    
+    #number,#zip_kode{
+        width: 32%;
+    }
+    #zip_kode{
+        margin: 0px 0px 30px 20px;
+    }
+    .box{
+        margin: 10px;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    #p1{
+        left:35px;
+        
+    }
+    #p2{
+        left:35px;
+       
+    }
+    #p3{
+        left:35px;
+        
+    }
+    #p4{
+        left:35px;
+        top: 280px;
+    }
+    #p5{
+        left:35px;
+        top: 360px;
+    }
+    #p6{
+        top: 760px;
+    }
+    #number,#zip_kode{
+        width: 90%;
+    }
+    #surname, #street, #zip_kode, #number,#city{
+        width: 80%;
+    } 
+    #zip_kode{
+        margin: 10px 0px 30px 12px;
+    }
+}
+
+
+
+@media all and (max-width: 480px){
+    #p1{
+        left:10px;
+    }
+    #p2{
+        left:10px;
+    }
+    #p3{
+        left:10px;
+    }
+    #p4{
+        left:10px;
+    }
+    #p5{
+        left:10px;
+    }
+    #sauce{
+        margin-left: 60px;
+    }
+    
+    #pizza{
+        margin-left: 50px;
+    }
+    .price{
+        margin-left: 50px;
+    }
+    form{
+        width: 45%;
+    }
+}
+
+    
+    
+    
+    

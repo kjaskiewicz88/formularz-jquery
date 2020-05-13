@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background: url('../img/pizza.jpg')no-repeat center;
+}
+form{
+    width: 30%;
+    position: relative;
+}
+#surname{
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #eeeeee;
+    
+}
+
+#street{
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #eeeeee;
+    
+}
+
+#zip_kode, #number  {
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid #eeeeee;
+}
+
+#city{
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #eeeeee;
+}
+
+#content, .price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#priceP, #priceS{
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+#content_inner{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pizza, #sauce {
+    margin: 40px 10px 20px 10px;
+    padding: 10px;
+    border: 2px solid #eeeeee;
+}
+
+h3 {
+    margin: 20px;
+    color: white;
+}
+#text{
+    color: white;
+    margin: 10px 20px;
+}
+
+#btn{
+    width: 100px;
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+p{
+    position: absolute;
+    background-color: white;
+    border: 1px solid;
+    width: 180px;
+    text-align: center;
+    
+}
+#p1{
+    top: 40px;
+    left: 140px;
+    opacity: 0;
+}
+#p2{
+    top: 120px;
+    left: 140px;
+    opacity: 0;
+}
+
+#p3{
+    top: 200px;
+    left: 23px;
+    opacity: 0;
+}
+#p4{
+    top: 200px;
+    right:23px;
+    opacity: 0;
+}
+
+#p5{
+    top: 280px;
+    left: 140px;
+    opacity: 0;
+}
+#p6{
+    opacity: 0;
+}
+
+.arrow_box {
+	background: white;
+	border: 2px solid #c2e1f5;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 65%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:before {
+	border-bottom-color: #c2e1f5;
+	border-width: 8px;
+	margin-left: -33px;
+}
+
+
+
+.arrows_box {
+	background: white;
+    border: 2px solid #c2e1f5;
+    margin: 5px;
+}
+.arrows_box:after, .arrows_box:before {
+	bottom: 100%;
+	left: 31px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrows_box:before {
+	border-bottom-color: #c2e1f5;
+	border-width: 8px;
+	margin-left: -33px;
+}
